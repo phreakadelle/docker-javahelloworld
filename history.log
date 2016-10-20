@@ -1,0 +1,27 @@
+  221  mkdir java
+  222  mkdir javahelloworld
+  223  rm -fr java
+  224  cd javahelloworld/
+  226  vi HelloWorld.java
+  228  docker build -t swatermeyer/javahelloworld:1.0 .
+  230  docker build -t swatermeyer/javahelloworld:1.0 .
+  231  docker run -dit swatermeyer/javahelloworld:1.0
+  234  docker build -t swatermeyer/javahelloworld:1.0 .
+  235  docker run -dit swatermeyer/javahelloworld:1.0
+  238  cd javahelloworld/
+  241  mv HelloWorld.java src/
+  242  javac
+  244  apt-get install java
+  246  mv src/HelloWorld.java .
+  249  docker build -t swatermeyer/javahelloworld:1.1 .
+  251  docker build -t swatermeyer/javahelloworld:1.1 .
+  253  docker build -t swatermeyer/javahelloworld:1.1 .
+  255  docker build -t swatermeyer/javahelloworld:1.1 .
+  257  docker build -t swatermeyer/javahelloworld:1.1 .
+  268  cat ../javahelloworld/Dockerfile 
+  355  docker push swatermeyer/javahelloworld:1.0
+  493  cd javahelloworld/
+  495  git remote add origin git@github.com:phreakadelle/docker-javahelloworld.git
+  548  cd javahelloworld/
+  551  history | grep java
+  552  history | grep java > history.log
